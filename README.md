@@ -14,6 +14,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet ipv6.disable=1"
 
 sudo update-grub
 
+sudo ufw allow 3128/tcp
+
 sudo reboot
 
 sudo netstat -tuln
