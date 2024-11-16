@@ -7,10 +7,13 @@ curl -s https://raw.githubusercontent.com/makatidurban/scripts/main/tinyproxy_1.
 # squid
 curl -s https://raw.githubusercontent.com/makatidurban/scripts/refs/heads/main/squid.sh | bash
 
-## disable ipv6
-vi /etc/default/grub \n
+### disable ipv6
+vi /etc/default/grub
+
 GRUB_CMDLINE_LINUX_DEFAULT="quiet ipv6.disable=1"
+
 sudo update-grub
+
 sudo reboot
 
 # email
