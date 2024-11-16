@@ -16,6 +16,8 @@ sudo update-grub
 
 sudo reboot
 
+sudo netstat -tuln
+
 # email
 curl -s https://raw.githubusercontent.com/maikka39/MailServerSetup/master/setup_mail_server.sh | bash
 
